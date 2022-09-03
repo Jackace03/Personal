@@ -1,1 +1,0 @@
-This is an example of output written to file.
