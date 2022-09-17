@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <body>
+    <table border = 1>
+      {% for key, value in result.items() %}
+        {% for key2, nested_value in value.items() %}
+          <tr>
+            <th> {{ key2 }} </th>
+            <td> {{ nested_value }} </td>
+          </tr>
+        {% endfor %}
+      {% endfor %}
+  </body>
+</html>
